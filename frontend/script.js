@@ -4,7 +4,7 @@
 // ---------------------------------------------------------------------------
 
 // Local dev talks to Flask on :5000; the deployed site talks to your Render URL.
-const PRODUCTION_BACKEND = "https://YOUR-RENDER-APP.onrender.com"; // <-- change after deploying the backend
+const PRODUCTION_BACKEND = "https://YOUR-ACTUAL-URL.onrender.com"; // <-- change after deploying the backend
 const BACKEND_URL = ["localhost", "127.0.0.1"].includes(location.hostname)
   ? "http://localhost:5000"
   : PRODUCTION_BACKEND;
